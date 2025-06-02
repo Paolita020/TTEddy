@@ -1,0 +1,66 @@
+/* Tablet (hasta 767px) */
+@media (max-width: 767px) {
+    #home-slider .caption h1 {
+        font-size: 5vw;        /* Escalable pero legible */
+        line-height: 1.2;
+        white-space: normal;
+    }
+
+    #home-slider .caption p {
+        font-size: 3.5vw;
+        line-height: 1.4;
+    }
+
+    .learn-more {
+        font-size: 3.5vw;
+        padding: 8px 16px;
+    }
+
+    .left-control,
+    .right-control {
+        font-size: 18px;
+        width: 32px;
+        height: 32px;
+        line-height: 30px;
+    }
+
+    #home-slider:hover .right-control {
+        right: 10px;
+    }
+
+    #home-slider:hover .left-control {
+        left: 10px;
+    }
+}
+
+/* Celulares (hasta 480px) */
+@media (max-width: 480px) {
+    #home-slider .caption h1 {
+        font-size: 24px;        /* Tamaño fijo para evitar saltos */
+    }
+
+    #home-slider .caption p {
+        font-size: 16px;
+    }
+
+    .learn-more {
+        font-size: 14px;
+        padding: 6px 12px;
+    }
+
+    .left-control,
+    .right-control {
+        font-size: 16px;
+        width: 28px;
+        height: 28px;
+        line-height: 26px;
+    }
+
+    #home-slider:hover .right-control {
+        right: 8px;
+    }
+
+    #home-slider:hover .left-control {
+        left: 8px;
+    }
+}
