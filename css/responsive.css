@@ -1,6 +1,8 @@
 	/* Small desktop */
 	@media (min-width: 980px) and (max-width: 1199px) { 
 
+		
+
 		/* Works */
 		.myport .portfolio ,
 		.myport .portfolio-5-col,
@@ -20,14 +22,16 @@
 	/* Portrait tablet to landscape and desktop */
 	@media (min-width: 768px) and (max-width: 979px) {
 
-		/* Home Slider */
+		
+
+
 		#home-slider .caption h1 {
-			font-size: 60px;
+			font-size: 15px;
+		}
+		#home-slider .caption p {
+			font-size: 10px;
 		}
 
-		#home-slider .caption p {
-			font-size: 35px;
-		}	
 			
 		/* Navagation*/
 		.navbar-header {
@@ -142,13 +146,20 @@
 	/* Landscape phone to portrait tablet */
 	@media (max-width: 767px) {
 	
+		
 		#home-slider .caption h1 {
-			font-size: 40px;
+			font-size: 8px;
+		}
+		#home-slider .caption p {
+		display: none; 
 		}
 
-		#home-slider .caption p {
-			font-size: 15px;
+
+		.learn-more {
+			font-size: 3vw;
+			padding: 10px 20px;
 		}
+		
 
 
 		/* Block Best Fitting */
@@ -202,15 +213,23 @@
 
 	/* Landscape phones and down */
 	@media (max-width: 480px) {	
+
+		#home-slider .caption h1 {
+			font-size: 8px;
+		}
+		#home-slider .caption p {
+		display: none; /* o reduce drásticamente el tamaño */
+		}
+
+
+		.learn-more {
+			font-size: 4vw;
+			padding: 10px 20px;
+		}
 		
 		/* Home Slider */
-		#home-slider .caption h1 {
-			font-size: 40px;
-		}
-		#home-slider .caption {
-			font-size: 15px;
-			padding: 0 30px;
-		}
+
+		
 		.left-control, .right-control {
 			font-size: 20px;
 			height: 30px;
@@ -264,11 +283,6 @@
 		}
 		.element-title h3 {
 			font-size: 16px;
-		}
-
-		/* Contact Form */
-		.contact_form {
-			width: 90%;
 		}
 
 	}
